@@ -1,0 +1,10 @@
+{
+	"InstallScripts" : 
+	[
+		"D:/govnocods/build_new/cmake_install.cmake",
+		"D:/govnocods/build_new/_deps/googletest-build/cmake_install.cmake",
+		"D:/govnocods/build_new/_deps/googletest-build/googlemock/cmake_install.cmake",
+		"D:/govnocods/build_new/_deps/googletest-build/googletest/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

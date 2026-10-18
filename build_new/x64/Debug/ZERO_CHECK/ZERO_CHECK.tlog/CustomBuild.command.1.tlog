@@ -1,0 +1,10 @@
+^D:\GOVNOCODS\BUILD_NEW\CMAKEFILES\AA0EEA66B01FE99E352660CC25FA7232\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/govnocods -BD:/govnocods/build_new --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/govnocods/build_new/DeliveryLesson.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
